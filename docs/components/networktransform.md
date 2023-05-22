@@ -21,7 +21,7 @@ For example, the above itemized tasks don't take into consideration:
 - If you have a complex parenting hierarchy (parents with one or more child transforms), should you synchronize world or local space axis values?
 - How can you optimize the bandwidth cost per transform update?
 
-Fortunately, NGO provides you withNetworkTransform component implementation that handles some of the trickier aspects of transform synchronization and is easily configurable by properties accessible via the in-editor inspector view.
+Fortunately, NGO provides you with a NetworkTransform component implementation that handles some of the trickier aspects of transform synchronization and is easily configurable by properties accessible via the in-editor inspector view.
 
 ## Adding
 When adding a NetworkTransform component to a GameObject, you should always make sure the GameObject has a NetworkObject component attached to it or that the GameObject's transform parent is assigned to a GameObject with a NetworkObject component attached to it like in the image below:
